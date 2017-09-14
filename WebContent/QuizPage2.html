@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>QuizApp | Test</title>
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
+
+<style type="text/css">
+	body{
+	margin-top:20px;
+	background-color:#748b90;
+    background-size: cover;
+	
+	}
+	.bg{
+	 background-repeat:no-repeat;
+	 background-attachment: fixed;
+	 height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+	}
+	.bk
+	{
+		background-color:#FFEFDB;
+		 height: 550px;
+		 padding:20px;	
+	}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+		<div class="col-md-2">
+		</div>
+		<form action="Quiz2Servlet" method="post">
+		<div class="col-md-8 bk"  style="border:2px solid #6CA6CD;">
+				<div class="col-md-12"><label>4. Applications communicate with kernel by using:</label>
+					<div class="col-md-12">
+					<div class="btn-group">
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q4" value="Shell Script">Shell Script</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q4" value="C Programs">C Programs</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q4" value="Shell">Shell</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q4" value="System Calls">System Calls</label>
+                    			</div>
+                    		</div>
+                    	</div>
+					</div>
+				
+				<div class="col-md-12"><label>5. What is sysfs?</label>
+					<div class="col-md-12">
+					<div class="btn-group">
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q5" value="it is a virtual filesystem">it is a virtual filesystem</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q5" value="users use it to get the information about the running kernel">users use it to get the information about the running kernel</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q5" value="it is used for exporting kernel objects">it is used for exporting kernel objects</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q5" value="all of the mentioned">all of the mentioned</label>
+                    			</div>
+                    	</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12"><label>6. Sysfs was originally called</label>
+					<div class="col-md-12">
+						<div class="btn-group">
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q6" value="device driver filesystem">device driver filesystem</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q6" value="kernel interface filesystem">kernel interface filesystem</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q6" value="kernel filesystem">kernel filesystem</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q6" value="none of the mentioned">none of the mentioned</label>
+                    			</div>
+                    		</div>
+					</div>
+				</div>
+				<div class="col-md-12" style="margin-top:20px">
+					<div class="col-md-6">
+						<a href="QuizPage1.html" class="previous"><button class="btn btn-primary  btn-lg form-control" type="button" name="submit1" > Previous </button></a>
+					</div>
+					<div class="col-md-6">
+						<button class="btn btn-success  btn-lg form-control" type="submit" name="submit2">Next>> </button>
+					</div>
+				</div>
+			</div>
+		</form>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

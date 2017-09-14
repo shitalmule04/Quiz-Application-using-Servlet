@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>QuizApp | Registration</title>
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
+
+<style type="text/css">
+	body{
+	margin-top:20px;
+	background-color:#547681;
+    background-size: cover;
+	
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+<div class="row">
+<div class="col-md-3">
+</div>
+<div class="col-md-6 " style="shadow-box:20px; background-color:#ffdab9;margin:10px;padding:20px;" >
+<h3  style="center" class="bg">Register Here</h3>
+<hr size="4px">
+<form action="RegistrationServlet" method="post">
+	<div class="form-group">
+		<label>Enter Enrollment number *:</label>
+		<input type="number" name="enrollment" class="form-control widths">
+	</div>
+	<div class="form-group">
+		<label>Enter your  Full Name *:</label>
+		<input type="text" name="_name" class="form-control">
+	</div>
+	<div class="form-group">
+		<label>Enter Class*</label>
+		<select name="_Class" class="form-control">
+		<option value="none">Class</option>
+		<option value="fy">First Year</option>
+		<option value="sy">Second Year</option>
+		<option value="ty">Third Year</option>
+		<option value="B_Tech">Final Year</option>
+	</select>
+		
+		
+	</div>
+	
+	<div class="form-group">
+		<label>Enter Department*</label>
+		<select name="dept" class="form-control">
+		<option value="none">Department</option>
+		<option value="IT">Information technology</option>
+		<option value="CS">Computer Science</option>
+		<option value="Mech">Mechanical</option>
+		<option value="Elect">Electrical</option>
+		<option value="ETC">Electronics and telecommunication</option>
+		<option value="Civil">Civi</option>
+		<option value="Auto">Automobile</option>
+	</select>
+	</div>	
+	<div class="form-group">
+		<label>Enter Email Address*</label>
+		<input type="Email" name="Email" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
+	</div>	
+	<div class="form-group">
+            <label>Mobile No.</label>
+            <input type="text" name="mobileReg" required class="form-control" maxlength="10" required/>
+     </div>
+	<div class="form-group">
+		<label> Enter password*</label>
+		<input type="password" name="password" class="form-control" maxlength="16" required/>
+	</div>
+	<div class="form-group">
+          <label> Retype Password</label>
+             <input type="password" name="passwdReg2" required class="form-control" maxlength="16" required/>
+       </div>
+	<div class="col-md-12">
+	<div class="col-md-6"><button type="submit" name="login" class="btn btn-primary" style="width:200px;">Register</button></div>	
+	<div class="col-md-6"><button type="reset" name="clear" class="btn btn-primary" style="width:200px;">Clear</button></div>	
+	</div>
+	
+	
+
+</form>
+</div>
+<div class="col-md-3">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

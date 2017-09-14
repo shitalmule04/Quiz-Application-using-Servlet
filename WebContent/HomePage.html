@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>QuizApp | Home</title>
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
+
+<style type="text/css">
+	body{
+	margin-top:20px;
+	background-color:#547681;
+    background-size: cover;
+	
+	}
+	.bg{
+	 background-repeat:no-repeat;
+	 background-attachment: fixed;
+	 height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+	}
+	</style>
+</head>
+<body>
+ <div class="col-md-3"></div>
+<div class="col-md-6">
+
+<form action="HomeServlet" method="post">
+<div>
+	<h3 style="color:#ffffff; text-align:center;">Test Language: <input type="checkbox" name="agree" style="margin-right:10px"> English</h3>
+	<br>
+    <button type="submit" class="btn btn-success btn-block" name="submit"><strong>Next</strong></button> 
+</div>
+	
+</form>
+
+
+</div>
+<div class="col-md-3"></div>
+</body>
+</html>

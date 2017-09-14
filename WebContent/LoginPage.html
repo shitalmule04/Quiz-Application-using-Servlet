@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>QuizApp | Login</title></head>
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
+	<style type="text/css">
+	body{
+	margin-top:20px;
+	background-color:#748b90;
+    background-size: cover;
+	
+	}
+	.bg{
+	 background-repeat:no-repeat;
+	 background-attachment: fixed;
+	 height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row" >
+		<div class="col-md-3">
+		</div>
+			<div class="col-md-6" style="shadow-box:20px; background-color:#ffc0cb;margin:40px;padding:20px;" >
+				<h3 class="bg">Login</h3>
+				<hr size="5px">
+			<form action="LoginServlet" method="post">
+				<div class="form-group">
+					<label> Enter Email</label>
+					<input type="text" name="username" class="form-control">
+				</div>
+				<div class="form-group">
+					<label> Enter password</label>
+					<input type="password" name="password" class="form-control">
+				</div>
+				<button type="submit" name="login" class="btn btn-primary btn-lg" style="width:200px;">Login</button>
+				<a href="RegistrationPage.html" class="btn btn-link btn-lg" role="button"><strong>I'm New User</strong></a>
+			</form>
+			</div>
+		<div class="col-md-3">
+		</div>
+		</div>
+	</div>
+</body>
+</html>

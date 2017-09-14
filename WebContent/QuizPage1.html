@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>QuizApp | Test</title>
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
+
+<style type="text/css">
+	body{
+	margin-top:20px;
+	background-color:#748b90;
+    background-size: cover;
+	
+	}
+	.bg{
+	 background-repeat:no-repeat;
+	 background-attachment: fixed;
+	 height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+	}
+	.bk
+	{
+		background-color:#FFEFDB;
+		 height: 570px;
+		 padding:20px;	
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-12">
+					<h3 align="center" style="color:#ffffff">Best of Luck..!!</h3>
+				<div class="col-md-12">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-8 bk" style="border:2px solid #6CA6CD;">
+					<form action="Quiz1Servlet" method="post">
+						<br>
+							<label><b>1. What hardware architectures are not supported by Red Hat?</b></label>
+							<div class="col-md-12">
+							<br>
+                    		<div class="btn-group">
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q1" value="SPARC">SPARC</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q1" value="Macintosh">Macintosh</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q1" value="IBM-compatible">IBM-compatible</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q1" value="Alpha">Alpha</label>
+                    			</div>
+                    		</div>
+						
+					</div>
+					<div class="col-md-12">
+							<label><b>2. What command is used to save the standard output in a file, as well as display it on the terminal?</b></label>
+							
+							<br>
+							<div class="btn-group">
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q2" value="tee">tee</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q2" value="grep">grep</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q2" value="cat">cat</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q2" value="more">more</label>
+                    			</div>
+                    		</div>
+                    		<br>
+						
+					</div>
+					<div class="col-md-12">
+						<label><b>3. Binary or executable files are:</b></label>
+						
+							<br>
+							<div class="btn-group">
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q3" value="Device files">Device files</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q3" value="Special files">Special files</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q3" value="Regular files">Regular files</label>
+                    			</div>
+                    			<div class="radio">
+                    				<label><input type="radio" name="ans_q3" value="Directory files">Directory files</label>
+                    			</div>
+                    		</div>
+                    		<br>
+                    		<div>
+								<button class="btn btn-success btn-lg pull-right" type="submit" name="next">Next >></button>
+							</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-2">
+			</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
